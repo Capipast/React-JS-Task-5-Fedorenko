@@ -1,0 +1,56 @@
+.Component-header {
+    height: 8vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.Component-content {
+    display: inline-block;
+    top: 100px;
+    bottom: 100px;
+    margin: 2vw;
+    padding: 1vw 1vw 1vw 2vw;
+    width: 65vw;
+    height: 20vw;
+    font-size: 1.5vw;
+}
+
+.Component-sidebar {
+    margin: 2vw;
+    padding: 1vw 0.5vw;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    float: right;
+    font-size: 1.5vw;
+}
+
+.Component-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.Component-menu{
+    padding-left: 7vw;
+}
+
+.Component-menu-item{
+    text-indent: -6vw;
+}
+
+ /* Menu and Menu-item in Footer */
+.Component-footer .Component-menu{
+    
+    width: 100%;
+    padding: 1vw;
+}
+
+.Component-footer .Component-menu-item{
+    display: inline;
+    padding: 2vw;
+}
